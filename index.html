@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF=8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./assets/styles.css">
+  
+    <title>Weather Dashboard</title>
+  </head>
+
+  <body>
+    <header>
+        <h1>Weather Dashboard</h1>
+    </header>
+
+    <div class="layout">
+    <aside>
+        <h2>Search for a City:</h2>
+        <input id="city" placeholder="typer here...">
+        <button id="search-button">Search</button>
+        <ul id="history-list"></ul>
+    </aside>
+
+    <section class="results hide">
+        <div class="city-card">
+        <h2 id="city-name">City Name <span class="date"></span></h2>
+        <img id="img-weather">
+        <h3 id="city-temp">Temperature</h3>
+        <h3 id="city-wind">Wind</h3>
+        <h3 id="city-humidity">Humidity</h3>
+    </div>
+
+    <h4>5-Day Forecast</h4>
+    
+    <div class="forecast">
+     
+
+        <div class="forecast-card">
+            <h5 id="date-day1">date</h5>
+            <img id="img-weather-day1">
+            <h6 id="temp-day1">temp</h6>
+            <h6 id="wind-day1">wind</h6>
+            <h6 id="humi-day1">humi</h6>          
+
+        </div>
+      <div class="forecast-card">
+          <h5 id="date-day2">date</h5>
+          <img id="img-weather-day2">
+          <h6 id="temp-day2">temp</h6>
+          <h6 id="wind-day2">wind</h6>
+          <h6 id="humi-day2">humi</h6>          
+
+      </div>
+
+      <div class="forecast-card">
+        <h5 id="date-day3">date</h5>
+        <img id="img-weather-day3">
+        <h6 id="temp-day3">temp</h6>
+        <h6 id="wind-day3">wind</h6>
+        <h6 id="humi-day3">humi</h6>          
+
+    </div>
+
+
+    <div class="forecast-card">
+      <h5 id="date-day4">date</h5>
+      <img id="img-weather-day4">
+      <h6 id="temp-day4">temp</h6>
+      <h6 id="wind-day4">wind</h6>
+      <h6 id="humi-day4">humi</h6>          
+
+  </div>
+
+
+  <div class="forecast-card">
+    <h5 id="date-day5">date</h5>
+    <img id="img-weather-day5">
+    <h6 id="temp-day5">temp</h6>
+    <h6 id="wind-day5">wind</h6>
+    <h6 id="humi-day5">humi</h6>          
+
+</div>
+
+    </div>
+  </div>
+    </section>
+
+    </div>
+
+
+  </body>
+
+
+
+
+
+
+
+  <script src="./assets/scripts.js"></script>
+
+
+
+
+
+
+
+
+</html>

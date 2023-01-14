@@ -1,2 +1,2 @@
-# Weather-Dashboard
-Weather-Dashboard
+# weather-dashboard
+weather-dashboard

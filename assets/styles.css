@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'arial'
+}
+
+
+
+header {
+    font-size: 25px;
+    padding: 15px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, rgb(60, 60, 250) , rgb(17, 17, 75));
+    color: white;
+}
+
+h1 {
+    width: 30%;
+    text-align: end;
+    margin: auto;
+}
+
+aside {
+    width: 20%;
+
+    padding: 10px;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+input {
+    display: block;
+    font-size: 20px;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #6991e3;
+    width: 100%;
+    padding: 7px;
+    color: white;
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+.layout {
+    display: flex;
+}
+
+section {
+    width: 70%;
+    margin: 20px;
+    padding: 10px;
+}
+
+h3 {
+    margin: 15px 0;
+    font-size: 25px;
+}
+
+.forecast {
+    display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+}
+
+.forecast-card {
+    background-color: #323d4f ;
+    width: 19%;
+    color: white;
+    padding: 10px;
+}
+
+h4 {
+    font-size: 30px;
+    display: block;
+    font-weight: bold;
+    margin: 50px 10px 15px 10px;
+}
+
+h5 {
+    font-size: 30px;
+    margin: 5px 0 15px 0;
+}
+
+img {
+    margin: 5px;
+}
+
+h6 {
+    font-size: 25px;
+    margin: 20px 0;
+}
+
+
+li {
+    margin: 15px 0;
+    padding: 10px;
+    background-color:  rgb(199, 199, 199);
+    color: black;
+    font-size: 17px;
+    text-align: center;
+    border-radius: 5px;
+  }
+
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: white;
+  }
+
+  .hide {
+    visibility: hidden;
+  }
+
+  .show {
+    visibility: visible;
+  }
+
+  .city-temp {
+    font-size: 60px;
+  }
+
+  .city-card {
+    border: 1px solid black;
+    padding: 10px;
+  }
