@@ -21,7 +21,7 @@ h1 {
     margin: auto;
 }
 
-aside {
+aside, form {
     width: 20%;
 
     padding: 10px;
