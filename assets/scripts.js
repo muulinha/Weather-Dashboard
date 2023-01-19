@@ -11,7 +11,6 @@ searchForm.addEventListener("submit", function (event) {
     
     renderHistory();
     search();
-    
 });
 
 
@@ -68,8 +67,7 @@ layout.setAttribute("class", "show");
 var APIKey = "794142a626ce62e5a3897b2a34ca54fe";
 
   function fetchWeather(city) {
-    console.log(city);
-    // fetch("http://api.openweathermap.org/data/2.5/weather?q=" + city + "&units=metric&appid=" + this.APIKey)
+    
     fetch("https://api.openweathermap.org/data/2.5/forecast?q=" + city + "&units=metric&appid=794142a626ce62e5a3897b2a34ca54fe")
 
   .then((response) => response.json())
@@ -89,8 +87,6 @@ function displayCurrentWeather(data) {
   var { icon } = data.list[0].weather[0];
   var { temp, humidity } = data.list[0].main;
   var { speed } = data.list[0].wind;
-  var {dt_txt} = data.list[0];
-console.log(dt_txt,name,country,icon,temp,humidity,speed);
 
 var cityName = document.querySelector("#city-name");
 var cityTemp = document.querySelector("#city-temp");
@@ -142,7 +138,6 @@ function displayWeatherDay2(data) {
   var { temp, humidity } = data.list[16].main;
   var { speed } = data.list[16].wind;
   var {dt_txt} = data.list[16];
-console.log(dt_txt,icon,temp,humidity,speed);
 
 var day = dt_txt.slice(8,10);
 var year = dt_txt.slice(0,4);
